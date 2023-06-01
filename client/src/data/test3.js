@@ -6,8 +6,7 @@ import { Marker, Tooltip, useMap, Popup } from "react-leaflet";
 import { defaultIcon } from "../icons/defaultIcon";
 import authService from "../Map/auth.service";
 
-
-const API_URL = "http://localhost:8080";
+const API_URL = "https://react-gps.herokuapp.com";
 
 export const MyComponent = () => {
   let [currentUser, setCurrentUser] = useState(authService.getCurrentUser());

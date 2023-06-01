@@ -11,7 +11,7 @@ const bingMapsApiKey = process.env.BingMapsApiKey;
 const GeoJson = require("./models/GeoJson");
 const path = require("path");
 const port = process.env.PORT || 8080;
-//mongodb local storage connection
+//mongodb local storage connectiong
 // mongoose
 //   .connect("mongodb://127.0.0.1:27017/tryDB")
 //   .then(() => {
